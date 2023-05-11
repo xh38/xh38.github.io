@@ -11,7 +11,7 @@ title                    : "Xu Hao/ xh38's personal website"
 title_separator          : "-"
 name                     : &name "Xu Hao"
 description              : &description "personal description"
-url                      : https://xh38.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://xh38.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "xh38/xh38.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -89,7 +89,7 @@ author:
   googlescholar    : #"http://yourfullgooglescholarurl.com"
   email            : "xh38@zju.edu.cn"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
-  uri              : "https://xh38.com"
+  uri              : "https://xh38.github.io"
   bitbucket        :
   codepen          :
   dribbble         :
