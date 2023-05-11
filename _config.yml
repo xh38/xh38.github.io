@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Xu Hao/ xh38's personal website"
+title                    : "Xu Hao/ xh38's homepage"
 title_separator          : "-"
 name                     : &name "Xu Hao"
 description              : &description "personal description"
