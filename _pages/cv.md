@@ -14,10 +14,9 @@ Education
 * B.S. in Mechatronic Engineering and Automation , Chu Kochen Honors College, Zhejiang University, 2018 - 2022
 * Ph.D in Computer Science, adviced by Prof.Xiaogang Jin, State Key Lab of CAD&CG, Zhejiang University, 2022 - Present
 
-Work experience
+<!-- Work experience
 ======
-* None Yet
-<!-- * Summer 2023: Intern 
+* Summer 2023: Intern 
   * OPPO, Shanghai
   * Duties included: Audio rendering with path tracing -->
   
