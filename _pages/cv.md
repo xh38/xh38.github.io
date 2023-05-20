@@ -16,9 +16,10 @@ Education
 
 Work experience
 ======
-* Summer 2023: Intern 
+* None Yet
+<!-- * Summer 2023: Intern 
   * OPPO, Shanghai
-  * Duties included: Audio rendering with path tracing
+  * Duties included: Audio rendering with path tracing -->
   
 
 Publications
