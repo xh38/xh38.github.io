@@ -14,6 +14,6 @@ I'm Xu Hao, a first-year (2022-now) Ph.D. student in State Key Lab of CAD&CG at 
 
 **Address:** Zijingang Campus of Zhejiang University, 866 Yuhangtang Rd, Hangzhou 310058, P.R. China.
 
-**Contact:** [xh38@zju.edu.cn](mailto:xh38@zju.edu.cn) / [xuhao38zju@gmail.com](mailto:xuhao38zju@gmail.com)
+**Contact:** [xh38@zju.edu.cn](mailto:xh38@zju.edu.cn) / [haoxu38@outlook.com](mailto:haoxu38@outlook.com)
 
 
