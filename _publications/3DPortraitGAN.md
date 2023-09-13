@@ -13,3 +13,8 @@ supplementary_materials: 'https://drive.google.com/file/d/16aNE5USZ0U32bgGJS1G5x
 project_page: 'https://github.com/oneThousand1000/3DPortraitGAN'
 year: '2023'
 ---
+[Paper](https://arxiv.org/abs/2307.14770) 
+
+[Suppl](https://drive.google.com/file/d/16aNE5USZ0U32bgGJS1G5xWrY0oIMTfre/view?usp=sharing) 
+
+[Project Page](https://github.com/oneThousand1000/3DPortraitGAN)
