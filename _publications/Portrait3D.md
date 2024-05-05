@@ -3,7 +3,7 @@ title: "Portrait3D: Text-Guided High-Quality 3D Portrait Generation Using Pyrami
 collection: publications
 permalink: /publication/Portrait3D
 excerpt: '[Yiqian Wu](https://onethousandwu.com/), **Hao Xu**, [Xiangjun Tang](https://yuyujunjun.github.io/), Xien Chen, Siyu Tang, Zhebin Zhang, Chen Li, [Xiaogang Jin*](http://www.cad.zju.edu.cn/home/jin)'
-date: 2023-08-22
+date: 2024-07-28
 venue: 'ACM Transactions on Graphics (Proceedings of SIGGRAPH 2024)'
 paperurl: 'https://arxiv.org/abs/2404.10394'
 # citation: 'http://oneThousand1000.github.io/files/bibtex/3DPortraitGAN.html'
