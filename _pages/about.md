@@ -16,4 +16,10 @@ I'm Xu Hao, a second-year (2022-now) Ph.D. student in State Key Lab of CAD&CG at
 
 **Contact:** [xh38@zju.edu.cn](mailto:xh38@zju.edu.cn) / [haoxu38@outlook.com](mailto:haoxu38@outlook.com)
 
+{% include base_path %}
+
+{% for post in site.publications reversed %}
+  {% include archive-single.html %}
+{% endfor %}
+
 
