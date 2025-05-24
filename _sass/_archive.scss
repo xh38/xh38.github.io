@@ -243,3 +243,66 @@
     }
   }
 }
+
+/* ==========================================================================
+   Publication Card Style
+   ========================================================================== */
+
+.archive__item {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+  transition: box-shadow 0.3s ease;
+}
+
+.archive__item:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.archive__item-title {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.archive__item-title a {
+  text-decoration: none;
+  color: #333;
+}
+
+.archive__item-title a:hover {
+  color: #007bff;
+}
+
+.archive__item-excerpt {
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.archive__item-meta {
+  font-size: 0.9em;
+  color: #888;
+  margin-bottom: 10px;
+}
+
+.archive__item-venue {
+  font-style: italic;
+  color: #555;
+}
+
+.archive__item-links a {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: white;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.archive__item-links a:hover {
+  background-color: #0056b3;
+}
