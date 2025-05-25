@@ -28,13 +28,15 @@ I'm Xu Hao, a second-year (2022-now) Ph.D. student in State Key Lab of CAD&CG at
 
 ## Work Experience
 
-* **Summer 2023 (July - Sept.): Intern**
-  * OPPO, Shanghai
-  * Duties included: Audio rendering by path tracing
+<div class="work-experience">
+  * **Summer 2023 (July - Sept.): Intern**
+    * OPPO, Shanghai
+    * Duties included: Audio rendering by path tracing
 
-* **November 2024 - Present: Intern**
-  * VAST, Beijing and remote
-  * Duties included: 3D generation research
+  * **November 2024 - Present: Intern**
+    * VAST, Beijing and remote
+    * Duties included: 3D generation research
+</div>
 
 
 

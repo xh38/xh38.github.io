@@ -306,3 +306,31 @@
 .archive__item-links a:hover {
   background-color: #0056b3;
 }
+
+.work-experience {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.work-experience h3 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.work-experience ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.work-experience li {
+  margin-bottom: 15px;
+  color: #666;
+  line-height: 1.6;
+}
+
+.work-experience strong {
+  color: #555;
+}
