@@ -10,7 +10,7 @@ redirect_from:
 
 ## About Me
 
-I'm Xu Hao, a second-year (2022-now) Ph.D. student in State Key Lab of CAD&CG at Zhejiang University, advised by Prof. [Xiaogang Jin](http://www.cad.zju.edu.cn/home/jin). I obtained my bachelor degrees in Mechatronic Engineering and Automation from Zhejiang University in 2022.
+I'm Xu Hao, a forth-year (2022-now) Ph.D. student in State Key Lab of CAD&CG at Zhejiang University, advised by Prof. [Xiaogang Jin](http://www.cad.zju.edu.cn/home/jin). I obtained my bachelor degrees in Mechatronic Engineering and Automation from Zhejiang University in 2022.
 
 **Research Interest:** 3D generation.
 
