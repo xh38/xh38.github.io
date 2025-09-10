@@ -2,7 +2,7 @@
 title: "OmniPart: Part-Aware 3D Generation with Semantic Decoupling and Structural Cohesion"
 collection: publications
 permalink: /publication/OmniPart
-excerpt: '[Yunhan Yang](https://yhyang-myron.github.io/), [Yufan Zhou](https://wiserzhou.github.io/), Yuanchen Guo, Zixin Zhou, Yukun Huang, Yingtian Liu, **Hao Xu**,    Ding Liang,   [Yan-pei Cao](https://yanpei.me/), [Xihui Liu*]'
+excerpt: '[Yunhan Yang](https://yhyang-myron.github.io/), [Yufan Zhou](https://wiserzhou.github.io/), Yuanchen Guo, Zixin Zhou, Yukun Huang, Yingtian Liu, **Hao Xu**,    Ding Liang, [Yan-pei Cao](https://yanpei.me/), Xihui Liu*'
 date: 2025-12-13
 venue: 'preprint'
 # paperurl: 'https://arxiv.org/abs/2307.14770'
