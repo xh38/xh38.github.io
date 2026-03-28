@@ -13,8 +13,3 @@ supplementary_materials: 'https://drive.google.com/file/d/1LasG-urCA7rEoITHofBwE
 project_page: 'https://onethousandwu.com/portrait3d.github.io/'
 year: '2024'
 ---
-[Paper](https://arxiv.org/abs/2404.10394) 
-
-[Suppl](https://drive.google.com/file/d/1LasG-urCA7rEoITHofBwEk0CloXM0DwX/view?usp=sharing) 
-
-[Project Page](https://onethousandwu.com/portrait3d.github.io/)

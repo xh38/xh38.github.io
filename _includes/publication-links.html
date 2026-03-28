@@ -1,0 +1,33 @@
+{% assign publication = include.item %}
+
+{% if publication and publication.collection == "publications" %}
+  {% capture publication_actions %}
+    {% if publication.paperurl %}
+      <a class="publication__action" href="{{ publication.paperurl }}" target="_blank" rel="noopener noreferrer">Paper</a>
+    {% endif %}
+    {% if publication.code %}
+      <a class="publication__action" href="{{ publication.code }}" target="_blank" rel="noopener noreferrer">Code</a>
+    {% endif %}
+    {% if publication.project_page %}
+      <a class="publication__action" href="{{ publication.project_page }}" target="_blank" rel="noopener noreferrer">Project</a>
+    {% endif %}
+    {% if publication.supplementary_materials %}
+      <a class="publication__action" href="{{ publication.supplementary_materials }}" target="_blank" rel="noopener noreferrer">Supplementary</a>
+    {% endif %}
+    {% if publication.video and publication.video != "coming soon" %}
+      <a class="publication__action" href="{{ publication.video }}" target="_blank" rel="noopener noreferrer">Video</a>
+    {% endif %}
+  {% endcapture %}
+
+  {% assign publication_actions = publication_actions | strip %}
+
+  {% if publication_actions != "" %}
+    <div class="publication__actions" role="group" aria-label="Publication links">
+      {{ publication_actions }}
+    </div>
+  {% endif %}
+
+  {% if publication.citation %}
+    <p class="publication__citation"><strong>Citation:</strong> {{ publication.citation }}</p>
+  {% endif %}
+{% endif %}

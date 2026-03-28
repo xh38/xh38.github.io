@@ -248,64 +248,149 @@
    Publication Card Style
    ========================================================================== */
 
-.archive__item {
-  background-color: #fff;
-  border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  margin-bottom: 20px;
-  transition: box-shadow 0.3s ease;
+.publications-intro {
+  margin-bottom: 1.1em;
+  padding: 0.85em 1em;
+  border-left: 3px solid mix(#fff, $primary-color, 30%);
+  background: mix(#fff, $primary-color, 95%);
+  border-radius: 0 $border-radius $border-radius 0;
+
+  p {
+    margin: 0;
+    font-size: $type-size-5;
+  }
 }
 
-.archive__item:hover {
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+.publications-list {
+  .list__item {
+    margin-bottom: 1.1em;
+  }
+
+  .archive__item {
+    background: #fff;
+    border: 1px solid mix(#fff, $primary-color, 85%);
+    border-radius: $border-radius;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    padding: 1.05em 1.2em;
+    transition: box-shadow 0.25s ease, border-color 0.25s ease, transform 0.25s ease;
+  }
+
+  .archive__item:hover {
+    border-color: mix(#fff, $primary-color, 65%);
+    box-shadow: 0 8px 24px rgba(17, 38, 58, 0.12);
+    transform: translateY(-1px);
+  }
+
+  .archive__item-title {
+    margin: 0 0 0.45em;
+    font-size: $type-size-4;
+    line-height: 1.35;
+  }
+
+  .archive__item-title a {
+    color: mix(#000, $primary-color, 18%);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+  }
+
+  .archive__item-title a:hover {
+    color: $primary-color;
+    border-bottom-color: mix(#fff, $primary-color, 55%);
+  }
+
+  .archive__item-meta {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.5em;
+    margin-bottom: 0.65em;
+    font-size: $type-size-6;
+  }
+
+  .archive__item-venue {
+    color: mix(#000, $text-color, 15%);
+    font-style: italic;
+  }
+
+  .archive__item-year {
+    display: inline-block;
+    padding: 0.1em 0.5em;
+    border: 1px solid mix(#fff, $primary-color, 75%);
+    border-radius: 999px;
+    color: mix(#000, $primary-color, 18%);
+    font-weight: 600;
+  }
+
+  .archive__item-excerpt {
+    margin: 0 0 0.8em;
+    color: mix(#000, $text-color, 12%);
+
+    p {
+      margin: 0;
+    }
+  }
 }
 
-.archive__item-title {
-  font-size: 1.2em;
-  margin-bottom: 10px;
-  color: #333;
+.publication__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45em;
+  margin-top: 0.55em;
+}
+
+.publication__action {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.24em 0.72em;
+  border: 1px solid mix(#fff, $primary-color, 70%);
+  border-radius: 999px;
+  background: mix(#fff, $primary-color, 94%);
+  color: mix(#000, $primary-color, 18%);
+  font-size: $type-size-6;
+  font-weight: 600;
+  text-decoration: none;
+  line-height: 1.4;
+}
+
+.publication__action:hover {
+  background: mix(#fff, $primary-color, 84%);
+  border-color: mix(#fff, $primary-color, 50%);
   text-decoration: none;
 }
 
-.archive__item-title a {
-  text-decoration: none;
-  color: #333;
+.publication__action--muted {
+  color: mix(#fff, $text-color, 30%);
+  border-style: dashed;
+  background: mix(#fff, $gray, 92%);
 }
 
-.archive__item-title a:hover {
-  color: #007bff;
+.publication__citation {
+  margin-top: 0.75em;
+  margin-bottom: 0;
+  font-size: $type-size-6;
 }
 
-.archive__item-excerpt {
-  color: #666;
-  margin-bottom: 15px;
+.publication-detail__meta {
+  margin-top: 0.35em;
+  margin-bottom: 0.75em;
+  color: mix(#000, $text-color, 18%);
 }
 
-.archive__item-meta {
-  font-size: 0.9em;
-  color: #888;
-  margin-bottom: 10px;
-}
+@include breakpoint(max-width $small) {
+  .publications-list {
+    .archive__item {
+      padding: 0.95em 1em;
+    }
 
-.archive__item-venue {
-  font-style: italic;
-  color: #555;
-}
+    .archive__item-title {
+      font-size: $type-size-5;
+    }
+  }
 
-.archive__item-links a {
-  display: inline-block;
-  margin-right: 10px;
-  padding: 5px 10px;
-  background-color: #007bff;
-  color: white;
-  border-radius: 4px;
-  text-decoration: none;
-  transition: background-color 0.3s ease;
-}
-
-.archive__item-links a:hover {
-  background-color: #0056b3;
+  .publication__action {
+    width: 100%;
+  }
 }
 
 .work-experience {
