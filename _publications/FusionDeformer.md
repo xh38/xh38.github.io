@@ -9,8 +9,3 @@ paperurl: 'https://link.springer.com/article/10.1007/s00371-024-03463-7'
 code: 'https://github.com/xh38/FusionDeformer'
 year: '2024'
 ---
-<!-- [Paper](https://arxiv.org/abs/2307.14770)  -->
-
-<!-- [Suppl](https://drive.google.com/file/d/16aNE5USZ0U32bgGJS1G5xWrY0oIMTfre/view?usp=sharing)  -->
-
-<!-- [Project Page](https://github.com/oneThousand1000/3DPortraitGAN) -->

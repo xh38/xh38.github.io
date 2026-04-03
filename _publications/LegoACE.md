@@ -10,8 +10,3 @@ code: 'https://github.com/xh38/LegoACE'
 project_page: 'https://xh38.github.io/LegoACE/'
 year: '2025'
 ---
-<!-- [Paper](https://arxiv.org/abs/2307.14770)  -->
-
-<!-- [Suppl](https://drive.google.com/file/d/16aNE5USZ0U32bgGJS1G5xWrY0oIMTfre/view?usp=sharing)  -->
-
-<!-- [Project Page](https://github.com/oneThousand1000/3DPortraitGAN) -->

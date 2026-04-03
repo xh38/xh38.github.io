@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Xu Hao/ xh38's homepage"
+title                    : "Hao Xu"
 title_separator          : "-"
-name                     : &name "Xu Hao"
-description              : &description "personal description"
+name                     : &name "Hao Xu"
+description              : &description "Ph.D. student at Zhejiang University researching 3D generation."
 url                      : https://xh38.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "xh38/xh38.github.io"
@@ -80,9 +80,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Xu Hao"
+  name             : "Hao Xu"
   avatar           : "bio-xh38.jpg"
-  bio              : "State Key Lab of CAD&CG, Zhejiang University"
+  bio              : "Ph.D. Student, State Key Lab of CAD&CG, Zhejiang University"
   location         : "Hangzhou, Zhejiang, China"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
@@ -255,7 +255,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: Aisa/Shanghai # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Shanghai # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins

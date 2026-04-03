@@ -12,8 +12,18 @@
   {% assign title = post.title %}
 {% endif %}
 
+{% comment %}<!-- Detect first-author publications -->{% endcomment %}
+{% assign _is_first_author = false %}
+{% if post.collection == 'publications' and post.excerpt %}
+  {% assign _excerpt_stripped = post.excerpt | strip %}
+  {% assign _first_token = _excerpt_stripped | split: "," | first | strip %}
+  {% if _first_token contains "**Hao Xu**" %}
+    {% assign _is_first_author = true %}
+  {% endif %}
+{% endif %}
+
 <div class="{{ include.type | default: "list" }}__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+  <article class="archive__item{% if _is_first_author %} archive__item--first-author{% endif %}" itemscope itemtype="http://schema.org/CreativeWork">
     {% if include.type == "grid" and teaser %}
       <div class="archive__item-teaser">
         <img src=
@@ -33,7 +43,7 @@
         <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
       {% endif %}
     </h2>
-    
+
     {% if post.read_time %}
       <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
@@ -43,7 +53,12 @@
     {% elsif post.collection == 'publications' %}
       <div class="archive__item-meta">
         {% if post.venue %}
-          <span class="archive__item-venue"><i>{{ post.venue }}</i></span>
+          {% assign _venue_up = post.venue | upcase %}
+          {% if _venue_up contains "SIGGRAPH" or _venue_up contains "ACM TRANSACTIONS ON GRAPHICS" %}
+            <span class="archive__item-venue archive__item-venue--top"><i>{{ post.venue }}</i></span>
+          {% else %}
+            <span class="archive__item-venue"><i>{{ post.venue }}</i></span>
+          {% endif %}
         {% endif %}
         <span class="archive__item-year">{{ post.date | default: "1900-01-01" | date: "%Y" }}</span>
       </div>

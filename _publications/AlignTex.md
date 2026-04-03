@@ -8,8 +8,3 @@ venue: 'ACM Transactions on Graphics (Proceedings of SIGGRAPH 2025)'
 paperurl: 'https://dl.acm.org/doi/10.1145/3731158'
 year: '2025'
 ---
-<!-- [Paper](https://arxiv.org/abs/2307.14770)  -->
-
-<!-- [Suppl](https://drive.google.com/file/d/16aNE5USZ0U32bgGJS1G5xWrY0oIMTfre/view?usp=sharing)  -->
-
-<!-- [Project Page](https://github.com/oneThousand1000/3DPortraitGAN) -->

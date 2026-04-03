@@ -3,19 +3,19 @@
 {% if publication and publication.collection == "publications" %}
   {% capture publication_actions %}
     {% if publication.paperurl %}
-      <a class="publication__action" href="{{ publication.paperurl }}" target="_blank" rel="noopener noreferrer">Paper</a>
+      <a class="publication__action" href="{{ publication.paperurl }}" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-file-lines" aria-hidden="true"></i> Paper</a>
     {% endif %}
     {% if publication.code %}
-      <a class="publication__action" href="{{ publication.code }}" target="_blank" rel="noopener noreferrer">Code</a>
+      <a class="publication__action" href="{{ publication.code }}" target="_blank" rel="noopener noreferrer"><i class="fab fa-github" aria-hidden="true"></i> Code</a>
     {% endif %}
     {% if publication.project_page %}
-      <a class="publication__action" href="{{ publication.project_page }}" target="_blank" rel="noopener noreferrer">Project</a>
+      <a class="publication__action" href="{{ publication.project_page }}" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-globe" aria-hidden="true"></i> Project</a>
     {% endif %}
     {% if publication.supplementary_materials %}
-      <a class="publication__action" href="{{ publication.supplementary_materials }}" target="_blank" rel="noopener noreferrer">Supplementary</a>
+      <a class="publication__action" href="{{ publication.supplementary_materials }}" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-folder-open" aria-hidden="true"></i> Suppl.</a>
     {% endif %}
     {% if publication.video and publication.video != "coming soon" %}
-      <a class="publication__action" href="{{ publication.video }}" target="_blank" rel="noopener noreferrer">Video</a>
+      <a class="publication__action" href="{{ publication.video }}" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-video" aria-hidden="true"></i> Video</a>
     {% endif %}
   {% endcapture %}
 

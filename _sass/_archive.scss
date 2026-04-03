@@ -261,6 +261,27 @@
   }
 }
 
+.pub-legend {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 2px;
+  vertical-align: middle;
+
+  &--first-author {
+    background: #3d7eaa;
+  }
+}
+
+.publications-year {
+  margin: 1.6em 0 0.6em;
+  padding-bottom: 0.3em;
+  font-size: $type-size-4;
+  font-weight: 700;
+  color: mix(#000, $primary-color, 30%);
+  border-bottom: 2px solid mix(#fff, $primary-color, 75%);
+}
+
 .publications-list {
   .list__item {
     margin-bottom: 1.1em;
@@ -279,6 +300,11 @@
     border-color: mix(#fff, $primary-color, 65%);
     box-shadow: 0 8px 24px rgba(17, 38, 58, 0.12);
     transform: translateY(-1px);
+  }
+
+  /* First-author highlight */
+  .archive__item--first-author {
+    border-left: 3px solid #3d7eaa;
   }
 
   .archive__item-title {
@@ -312,6 +338,11 @@
     font-style: italic;
   }
 
+  .archive__item-venue--top {
+    color: #1a5276;
+    font-weight: 600;
+  }
+
   .archive__item-year {
     display: inline-block;
     padding: 0.1em 0.5em;
@@ -342,6 +373,7 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  gap: 0.3em;
   padding: 0.24em 0.72em;
   border: 1px solid mix(#fff, $primary-color, 70%);
   border-radius: 999px;
@@ -351,6 +383,10 @@
   font-weight: 600;
   text-decoration: none;
   line-height: 1.4;
+
+  i {
+    font-size: 0.85em;
+  }
 }
 
 .publication__action:hover {
@@ -371,10 +407,44 @@
   font-size: $type-size-6;
 }
 
+.publication__bibtex {
+  margin-top: 0.75em;
+
+  summary {
+    cursor: pointer;
+    font-size: $type-size-6;
+    font-weight: 600;
+    color: mix(#000, $primary-color, 18%);
+
+    &:hover {
+      color: $primary-color;
+    }
+  }
+
+  pre {
+    margin-top: 0.5em;
+    padding: 0.8em 1em;
+    font-size: $type-size-7;
+    background: mix(#fff, $primary-color, 96%);
+    border: 1px solid mix(#fff, $primary-color, 85%);
+    border-radius: $border-radius;
+    overflow-x: auto;
+    white-space: pre-wrap;
+    word-break: break-word;
+  }
+}
+
 .publication-detail__meta {
   margin-top: 0.35em;
   margin-bottom: 0.75em;
   color: mix(#000, $text-color, 18%);
+}
+
+.publication-detail__authors {
+  margin-bottom: 1em;
+  font-size: $type-size-5;
+  line-height: 1.6;
+  color: mix(#000, $text-color, 12%);
 }
 
 @include breakpoint(max-width $small) {
@@ -393,30 +463,58 @@
   }
 }
 
-.work-experience {
-  background-color: #f9f9f9;
-  border-radius: 8px;
-  padding: 20px;
-  margin-bottom: 20px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+/* ==========================================================================
+   Work Experience Cards
+   ========================================================================== */
+
+.experience-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75em;
 }
 
-.work-experience h3 {
-  color: #333;
-  margin-bottom: 10px;
+.experience-item {
+  padding: 0.9em 1.1em;
+  border: 1px solid mix(#fff, $primary-color, 85%);
+  border-radius: $border-radius;
+  background: #fff;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.25s ease, border-color 0.25s ease;
+
+  &:hover {
+    border-color: mix(#fff, $primary-color, 65%);
+    box-shadow: 0 4px 12px rgba(17, 38, 58, 0.09);
+  }
 }
 
-.work-experience ul {
-  list-style-type: none;
-  padding: 0;
+.experience-item__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0.4em;
 }
 
-.work-experience li {
-  margin-bottom: 15px;
-  color: #666;
-  line-height: 1.6;
+.experience-item__role {
+  font-weight: 700;
+  color: mix(#000, $primary-color, 18%);
 }
 
-.work-experience strong {
-  color: #555;
+.experience-item__date {
+  font-size: $type-size-6;
+  color: mix(#fff, $text-color, 15%);
+  white-space: nowrap;
+}
+
+.experience-item__org {
+  margin-top: 0.15em;
+  font-size: $type-size-6;
+  color: mix(#fff, $text-color, 10%);
+  font-style: italic;
+}
+
+.experience-item__desc {
+  margin: 0.4em 0 0;
+  font-size: $type-size-5;
+  color: mix(#000, $text-color, 12%);
 }

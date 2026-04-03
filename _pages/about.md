@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "Hao Xu"
-excerpt: "Ph.D. Student at Zhejiang University focusing on 3D generation and digital human modeling."
+excerpt: "Ph.D. Student at Zhejiang University focusing on 3D generation."
 author_profile: true
 redirect_from: 
   - /about/
@@ -14,7 +14,7 @@ redirect_from:
   <h2 class="home-about__title">About Me</h2>
 
   <p class="home-about__intro">
-    I am Xu Hao, a fourth-year (2022-now) Ph.D. student in the State Key Lab of CAD&CG at Zhejiang University,
+    I am Hao Xu (&#24464;&#28009;), a Ph.D. student (since 2022) in the State Key Lab of CAD&amp;CG at Zhejiang University,
     advised by Prof. <a href="http://www.cad.zju.edu.cn/home/jin">Xiaogang Jin</a>. I received my dual B.E. degrees
     in Mechatronic Engineering and Automation from Zhejiang University in 2022.
   </p>
@@ -72,14 +72,22 @@ redirect_from:
 
 ## Work Experience
 
-* **Summer 2023 (July - Sept.): Intern**
-  * OPPO, Shanghai
-  * Duties included: Audio rendering by path tracing
-
-* **November 2024 - Present: Intern**
-  * VAST, Beijing and remote
-  * Duties included: 3D generation research
-
-
-
+<div class="experience-list">
+  <div class="experience-item">
+    <div class="experience-item__header">
+      <span class="experience-item__role">Research Intern</span>
+      <span class="experience-item__date">Nov 2024 &ndash; Present</span>
+    </div>
+    <div class="experience-item__org">VAST &middot; Beijing / Remote</div>
+    <p class="experience-item__desc">3D generation research</p>
+  </div>
+  <div class="experience-item">
+    <div class="experience-item__header">
+      <span class="experience-item__role">Research Intern</span>
+      <span class="experience-item__date">Jul &ndash; Sept 2023</span>
+    </div>
+    <div class="experience-item__org">OPPO &middot; Shanghai</div>
+    <p class="experience-item__desc">Audio rendering via path tracing</p>
+  </div>
+</div>
 
