@@ -14,28 +14,36 @@ redirect_from:
   <h2 class="home-about__title">About Me</h2>
 
   <p class="home-about__intro">
-    I am Hao Xu (&#24464;&#28009;), a Ph.D. student (since 2022) in the State Key Lab of CAD&amp;CG at Zhejiang University,
-    advised by Prof. <a href="http://www.cad.zju.edu.cn/home/jin">Xiaogang Jin</a>. I received my dual B.E. degrees
-    in Mechatronic Engineering and Automation from Zhejiang University in 2022.
+    I am Hao Xu (&#24464;&#28009;), a Ph.D. student (since 2022) in the
+    <a href="http://www.cad.zju.edu.cn/">State Key Lab of CAD&amp;CG</a> at
+    <a href="https://www.zju.edu.cn/english/">Zhejiang University</a>,
+    advised by Prof. <a href="http://www.cad.zju.edu.cn/home/jin">Xiaogang Jin</a>.
+    I received my dual B.E. degrees in Mechatronic Engineering and Automation
+    from Zhejiang University in 2022.
+    My research focuses on <strong>3D generation</strong>.
   </p>
 
-  <div class="home-about__grid">
-    <div class="home-about__card">
-      <h3>Research Interests</h3>
-      <ul>
-        <li>3D generation</li>
-      </ul>
+  <div class="home-about__contact">
+    <div class="home-about__contact-item">
+      <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+      <a href="mailto:xh38@zju.edu.cn">xh38@zju.edu.cn</a>
+      <span class="home-about__sep">/</span>
+      <a href="mailto:haoxu38@outlook.com">haoxu38@outlook.com</a>
+    </div>
+    <div class="home-about__contact-item">
+      <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+      Zijingang Campus, Zhejiang University, 866 Yuhangtang Rd, Hangzhou 310058, China
+    </div>
+    <div class="home-about__contact-item">
+      <i class="fab fa-github" aria-hidden="true"></i>
+      <a href="https://github.com/{{ site.author.github }}">{{ site.author.github }}</a>
+      {% if site.author.googlescholar %}
+        <span class="home-about__sep">|</span>
+        <i class="ai ai-google-scholar" aria-hidden="true"></i>
+        <a href="{{ site.author.googlescholar }}">Google Scholar</a>
+      {% endif %}
     </div>
   </div>
-
-  <div class="home-about__actions" role="group" aria-label="Quick links">
-    {% if site.author.googlescholar %}
-      <a class="btn btn--light-outline" href="{{ site.author.googlescholar }}" target="_blank" rel="noopener noreferrer">Google Scholar</a>
-    {% endif %}
-  </div>
-
-  <p class="home-about__meta"><strong>Address:</strong> Zijingang Campus, Zhejiang University, 866 Yuhangtang Rd, Hangzhou 310058, P.R. China.</p>
-  <p class="home-about__meta"><strong>Contact:</strong> <a href="mailto:xh38@zju.edu.cn">xh38@zju.edu.cn</a> / <a href="mailto:haoxu38@outlook.com">haoxu38@outlook.com</a></p>
 </section>
 
 ## Selected Publications
