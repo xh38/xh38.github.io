@@ -83,7 +83,7 @@ redirect_from:
   </div>
   <div class="experience-item">
     <div class="experience-item__header">
-      <span class="experience-item__role">Research Intern</span>
+      <span class="experience-item__role">Development Intern</span>
       <span class="experience-item__date">Jul &ndash; Sept 2023</span>
     </div>
     <div class="experience-item__org">OPPO &middot; Shanghai</div>
